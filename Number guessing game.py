@@ -27,8 +27,8 @@ while guess != num and trys > 0:
         trys -= 1
 else:
     if(guess == num):
-        print("You won player🎉")
+        print("You won " + name + "🎉")
     else:
-        print("You lost player the number was ",num)
+        print("You lost " + name + " the number was ",num)
 
 
